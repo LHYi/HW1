@@ -1,0 +1,17 @@
+<view>
+<swiper class='e' indicator-dots='{{true}}' current='{{ci}}'>
+ <swiper-item wx:for="{{list}}">
+ <view class='c'>
+    <text bindtap='fb' wx:if='{{index > (list.length-2)}}' class='f' style="font-size:30rpx;color:blue;">昨日美文</text>
+   <text class='info'>{{item.timu}}</text>
+   <image class='b' src="{{item.imagePath}}"></image>
+   <text style="font-size:30rpx;">{{item.comment}}</text>
+   <text wx:if="{{item.ac}}" style="font-size:36rpx;color:red;">
+  作者评论： 深度美文</text>
+   <text style="font-size:28rpx;">{{item.date}}</text>
+   <text bindtap='fa' wx:if='{{index > (list.length-2)}}' class='f' style="font-size:30rpx;color:blue;">返回今日美文</text>
+
+ </view>
+ </swiper-item>
+</swiper>
+</view>

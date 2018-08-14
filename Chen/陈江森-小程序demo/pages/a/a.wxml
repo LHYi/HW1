@@ -1,0 +1,13 @@
+<view class='c'>
+<image class='b' src="/images/1.jpg"></image>
+
+<!-- src插入图片 -->
+
+<navigator url='/pages/b/b' open-type='switchTab' class='d' hover-class='a'>每天给您推荐一篇美文</navigator>
+
+<!-- 生成链接 -->
+<!-- open-type 是否可返回 -->
+
+</view>
+
+<!-- view 整体封装 -->

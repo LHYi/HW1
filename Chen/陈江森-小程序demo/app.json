@@ -1,0 +1,28 @@
+{
+  "pages":["pages/a/a","pages/b/b"],
+
+  "tabBar":{
+    "list":[
+      {
+     "text":"首页",
+      "pagePath":"pages/a/a",
+      "iconPath":"images/2.jpg",
+      "selectedIconPath":"images/3.jpg"
+      },
+      {
+      "text": "阅读",
+      "pagePath": "pages/b/b",
+      "iconPath": "images/4.jpg",
+      "selectedIconPath": "images/5.jpg"
+      }
+    ],
+   "color":"black" ,
+   "selectedColor":"blue"
+  },
+  "window":{
+        "navigationBarBackgroundColor": "#4169E1",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#4169E1",
+        "backgroundTextStyle": "light"
+  }
+}

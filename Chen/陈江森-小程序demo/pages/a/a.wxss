@@ -1,0 +1,13 @@
+
+.b{
+  width :425rpx;
+  height:375rpx;
+}
+.d{
+  color:blue
+}
+.a
+{
+  color: red;
+  }
+/* 注意d,a顺序 */
